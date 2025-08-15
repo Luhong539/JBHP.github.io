@@ -1,34 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jade Bloom Health Preservation</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
     <link
       rel="stylesheet"
       as="style"
       onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&family=Lexend%3Awght%40400%3B500%3B700%3B900&family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
     />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
   <body>
-    <div
-      class="relative flex size-full min-h-screen flex-col bg-[#f8fbf9] group/design-root overflow-x-hidden"
-      style='font-family: Lexend, "Noto Sans", sans-serif;'
-    >
+    <div class="relative flex size-full min-h-screen flex-col bg-[#f8fbf9] group/design-root overflow-x-hidden" style='font-family: Lexend, "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
-        <header
-          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e8f3eb] px-10 py-3"
-        >
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e8f3eb] px-10 py-3">
           <div class="flex items-center gap-4 text-[#0e1b12]">
             <div class="size-4">
-              <svg
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_6_543)">
                   <path
                     d="M42.1739 20.1739L27.8261 5.82609C29.1366 7.13663 28.3989 10.1876 26.2002 13.7654C24.8538 15.9564 22.9595 18.3449 20.6522 20.6522C18.3449 22.9595 15.9564 24.8538 13.7654 26.2002C10.1876 28.3989 7.13663 29.1366 5.82609 27.8261L20.1739 42.1739C21.4845 43.4845 24.5355 42.7467 28.1133 40.548C30.3042 39.2016 32.6927 37.3073 35 35C37.3073 32.6927 39.2016 30.3042 40.548 28.1133C42.7467 24.5355 43.4845 21.4845 42.1739 20.1739Z"
@@ -42,32 +33,18 @@
                   ></path>
                 </g>
                 <defs>
-                  <clipPath id="clip0_6_543">
-                    <rect width="48" height="48" fill="white"></rect>
-                  </clipPath>
+                  <clipPath id="clip0_6_543"><rect width="48" height="48" fill="white"></rect></clipPath>
                 </defs>
               </svg>
             </div>
-            <h2
-              class="text-[#0e1b12] text-lg font-bold leading-tight tracking-[-0.015em]"
-            >
-              Jade Bloom Health Preservation
-            </h2>
+            <h2 class="text-[#0e1b12] text-lg font-bold leading-tight tracking-[-0.015em]">Jade Bloom Health Preservation</h2>
           </div>
           <div class="flex flex-1 justify-end gap-8">
             <div class="flex items-center gap-9">
-              <a class="text-[#0e1b12] text-sm font-medium leading-normal" href="#"
-                >Shop</a
-              >
-              <a class="text-[#0e1b12] text-sm font-medium leading-normal" href="#"
-                >Learn</a
-              >
-              <a class="text-[#0e1b12] text-sm font-medium leading-normal" href="#"
-                >About Us</a
-              >
-              <a class="text-[#0e1b12] text-sm font-medium leading-normal" href="#"
-                >Contact</a
-              >
+              <a class="text-[#0e1b12] text-sm font-medium leading-normal" href="#">Shop</a>
+              <a class="text-[#0e1b12] text-sm font-medium leading-normal" href="#">Learn</a>
+              <a class="text-[#0e1b12] text-sm font-medium leading-normal" href="#">About Us</a>
+              <a class="text-[#0e1b12] text-sm font-medium leading-normal" href="#">Contact</a>
             </div>
             <div class="flex gap-2">
               <button
@@ -78,19 +55,8 @@
               <button
                 class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#e8f3eb] text-[#0e1b12] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
               >
-                <div
-                  class="text-[#0e1b12]"
-                  data-icon="MagnifyingGlass"
-                  data-size="20px"
-                  data-weight="regular"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20px"
-                    height="20px"
-                    fill="currentColor"
-                    viewBox="0 0 256 256"
-                  >
+                <div class="text-[#0e1b12]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
                     <path
                       d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
                     ></path>
@@ -100,19 +66,8 @@
               <button
                 class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#e8f3eb] text-[#0e1b12] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
               >
-                <div
-                  class="text-[#0e1b12]"
-                  data-icon="ShoppingBag"
-                  data-size="20px"
-                  data-weight="regular"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20px"
-                    height="20px"
-                    fill="currentColor"
-                    viewBox="0 0 256 256"
-                  >
+                <div class="text-[#0e1b12]" data-icon="ShoppingBag" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
                     <path
                       d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"
                     ></path>
@@ -128,7 +83,7 @@
               <div class="@[480px]:p-4">
                 <div
                   class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4"
-                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://images.unsplash.com/photo-1579735956046-24e6c382f63e?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");'
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDUlrhFRoGJIYSdaVszP88Dnmu_zVjMRCr1RrfRSUUsY89ou-bGnAv_ARL1wdk6YXQV5W6_Y3e7Gcy3ptHpxacQhlwZRKlBp3hl3rSgtFfSQObMGk5Gn1isZn9ukwFRVasZU8Aj74ZfgJ7h9cFXHIb33BYgveGCRTyeMNA_BBDZIKYedg4hsMyAJ9eC0riHT8VipWJ2vVaEz0W72xrUbUyQDyV_R1QaoNUaP_9wVyXTa87ulxxgbl46HTMjhGbm5eSmFEb3BPfcTdc");'
                 >
                   <div class="flex flex-col gap-2 text-center">
                     <h1
@@ -136,11 +91,8 @@
                     >
                       Discover Teas for Your Well-being
                     </h1>
-                    <h2
-                      class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
-                    >
-                      Explore our curated selection of herbal teas designed to support
-                      your body's natural functions and promote overall wellness.
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Explore our curated selection of herbal teas designed to support your body's natural functions and promote overall wellness.
                     </h2>
                   </div>
                   <button
@@ -151,65 +103,43 @@
                 </div>
               </div>
             </div>
-            <h2
-              class="text-[#0e1b12] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
-            >
-              Product Highlights
-            </h2>
-            <div
-              class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-            >
+            <h2 class="text-[#0e1b12] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Product Highlights</h2>
+            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
               <div class="flex items-stretch p-4 gap-3">
                 <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
                   <div
                     class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
-                    style='background-image: url("https://images.unsplash.com/photo-1579735956046-24e6c382f63e?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");'
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1TWDp5c1D5JMvCmu2yeC-z8YpBkuyWse14F8oJ_vSnqg-3RxhW9I7h8kmaMGe-8VrlStgvPupqYPc7lAcmNMcAeSZKm-rWmWQZHI89GhH68MZeN7SBtejcCDGbdW9x6ajkq86qcycrXa-9PEO5Y7YvF-EkKRg9pZ5KzQ-uVGvllNjuOhpi7hFpvS8sno-7fZ5GWEH137XQGrTo5yJopH5prbdo7UnRQ4ghwIWoghHr5z0b08p1j86KHYKsXvCXkq01KFI-vQsY7g");'
                   ></div>
                   <div>
-                    <p class="text-[#0e1b12] text-base font-medium leading-normal">
-                      Revitalize Your Senses
-                    </p>
-                    <p class="text-[#509567] text-sm font-normal leading-normal">
-                      A blend of aromatic herbs to awaken your senses and enhance
-                      mental clarity.
-                    </p>
+                    <p class="text-[#0e1b12] text-base font-medium leading-normal">Revitalize Your Senses</p>
+                    <p class="text-[#509567] text-sm font-normal leading-normal">A blend of aromatic herbs to awaken your senses and enhance mental clarity.</p>
                   </div>
                 </div>
                 <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
                   <div
                     class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
-                    style='background-image: url("https://images.unsplash.com/photo-1549464303-366f07a7e0ed?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");'
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAtHz0ZAzhMDZI7W9JP0kZIcRS70WKkQooYs4OiZRzKLp2fWis1zE6A5OjKjdz2lap9M_0zvmJOBbnbSyQ2SstV5oWDGpqG3Y6zq1sygjkZYZ8uEV2fV5v9d6aEByqOhevcehpumSTsJUuVFtPn4xFq3d106_v3BoIuAp6M1MSIXTOsoe6F4R82Pcko4AksYbw2Q7EFn1OWTx333MlxiX1LsGu37EB1vc4kOVdQGQpfjrYr95p_-volO6xwpUdJbe0dR2gep4Gvixg");'
                   ></div>
                   <div>
-                    <p class="text-[#0e1b12] text-base font-medium leading-normal">
-                      Soothe Your Mind
-                    </p>
-                    <p class="text-[#509567] text-sm font-normal leading-normal">
-                      Chamomile tea to help you unwind and promote restful sleep.
-                    </p>
+                    <p class="text-[#0e1b12] text-base font-medium leading-normal">Soothe Your Mind</p>
+                    <p class="text-[#509567] text-sm font-normal leading-normal">Chamomile tea to help you unwind and promote restful sleep.</p>
                   </div>
                 </div>
                 <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
                   <div
                     class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
-                    style='background-image: url("https://images.unsplash.com/photo-1587570414995-15a6b0c60465?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");'
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCvVd5ZkWeLTBlanDL5uWvw_BM8jZDB7yC0xl4fX77C-d_jzqBtWB5ZxZJycw7tu5R0RZwJKzAoZjbvbZdpEyzZO3F8o1bYOklajT9XZLuWh7_WbVdcvqmF2R6v0iqqHQ2MdOPoD8WUJoDTUA8k8uD6nS8SNt8sqtl1SMdTvAp640MrJu_rwewLsCgSr6O-iQHqS92IGzoL08kk9SSxF_CNByPSkE07TXv2-jALc_2lvHNuyuMwSJv8cvOmV4ZhluisF2f7URC0sz0");'
                   ></div>
                   <div>
-                    <p class="text-[#0e1b12] text-base font-medium leading-normal">
-                      Support Your Digestion
-                    </p>
-                    <p class="text-[#509567] text-sm font-normal leading-normal">
-                      A warming blend of ginger and turmeric to aid digestion and
-                      reduce inflammation.
-                    </p>
+                    <p class="text-[#0e1b12] text-base font-medium leading-normal">Support Your Digestion</p>
+                    <p class="text-[#509567] text-sm font-normal leading-normal">A warming blend of ginger and turmeric to aid digestion and reduce inflammation.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="@container">
-              <div
-                class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20"
-              >
+              <div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
                 <div class="flex flex-col gap-2 text-center">
                   <h1
                     class="text-[#0e1b12] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
@@ -217,23 +147,18 @@
                     Stay Updated
                   </h1>
                   <p class="text-[#0e1b12] text-base font-normal leading-normal max-w-[720px">
-                    Sign up for our newsletter to receive exclusive offers, wellness
-                    tips, and new product announcements.
+                    Sign up for our newsletter to receive exclusive offers, wellness tips, and new product announcements.
                   </p>
                 </div>
                 <div class="flex flex-1 justify-center">
-                  <label
-                    class="flex flex-col min-w-40 h-14 max-w-[480px] flex-1 @[480px]:h-16"
-                  >
+                  <label class="flex flex-col min-w-40 h-14 max-w-[480px] flex-1 @[480px]:h-16">
                     <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
                       <input
                         placeholder="Enter your email"
                         class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e1b12] focus:outline-0 focus:ring-0 border-none bg-[#e8f3eb] focus:border-none h-full placeholder:text-[#509567] px-4 rounded-r-none border-r-0 pr-2 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
                         value=""
                       />
-                      <div
-                        class="flex items-center justify-center rounded-r-lg border-l-0 border-none bg-[#e8f3eb] pr-2"
-                      >
+                      <div class="flex items-center justify-center rounded-r-lg border-l-0 border-none bg-[#e8f3eb] pr-2">
                         <button
                           class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#36e26f] text-[#0e1b12] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
                         >
@@ -250,55 +175,18 @@
         <footer class="flex justify-center">
           <div class="flex max-w-[960px] flex-1 flex-col">
             <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
-              <div
-                class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around"
-              >
-                <a
-                  class="text-[#509567] text-base font-normal leading-normal min-w-40"
-                  href="#"
-                  >Shop</a
-                >
-                <a
-                  class="text-[#509567] text-base font-normal leading-normal min-w-40"
-                  href="#"
-                  >Learn</a
-                >
-                <a
-                  class="text-[#509567] text-base font-normal leading-normal min-w-40"
-                  href="#"
-                  >About Us</a
-                >
-                <a
-                  class="text-[#509567] text-base font-normal leading-normal min-w-40"
-                  href="#"
-                  >Contact</a
-                >
-                <a
-                  class="text-[#509567] text-base font-normal leading-normal min-w-40"
-                  href="#"
-                  >Privacy Policy</a
-                >
-                <a
-                  class="text-[#509567] text-base font-normal leading-normal min-w-40"
-                  href="#"
-                  >Terms of Service</a
-                >
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#509567] text-base font-normal leading-normal min-w-40" href="#">Shop</a>
+                <a class="text-[#509567] text-base font-normal leading-normal min-w-40" href="#">Learn</a>
+                <a class="text-[#509567] text-base font-normal leading-normal min-w-40" href="#">About Us</a>
+                <a class="text-[#509567] text-base font-normal leading-normal min-w-40" href="#">Contact</a>
+                <a class="text-[#509567] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
+                <a class="text-[#509567] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
               </div>
               <div class="flex flex-wrap justify-center gap-4">
                 <a href="#">
-                  <div
-                    class="text-[#509567]"
-                    data-icon="TwitterLogo"
-                    data-size="24px"
-                    data-weight="regular"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24px"
-                      height="24px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
+                  <div class="text-[#509567]" data-icon="TwitterLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
                       <path
                         d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"
                       ></path>
@@ -306,19 +194,8 @@
                   </div>
                 </a>
                 <a href="#">
-                  <div
-                    class="text-[#509567]"
-                    data-icon="InstagramLogo"
-                    data-size="24px"
-                    data-weight="regular"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24px"
-                      height="24px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
+                  <div class="text-[#509567]" data-icon="InstagramLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
                       <path
                         d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
                       ></path>
@@ -326,19 +203,8 @@
                   </div>
                 </a>
                 <a href="#">
-                  <div
-                    class="text-[#509567]"
-                    data-icon="FacebookLogo"
-                    data-size="24px"
-                    data-weight="regular"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24px"
-                      height="24px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
+                  <div class="text-[#509567]" data-icon="FacebookLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
                       <path
                         d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
                       ></path>
@@ -346,9 +212,7 @@
                   </div>
                 </a>
               </div>
-              <p class="text-[#509567] text-base font-normal leading-normal">
-                © 2024 Jade Bloom Health Preservation. All rights reserved.
-              </p>
+              <p class="text-[#509567] text-base font-normal leading-normal">© 2024 Jade Bloom Health Preservation. All rights reserved.</p>
             </footer>
           </div>
         </footer>
